@@ -1,6 +1,6 @@
 ﻿---
 lab:
-    title: 'Azure Machine Learning 작업 영역 만들기'
+    title: 'Azure Machine Learning 작업 영역 만들기 및 살펴보기'
 ---
 
 # Azure Machine Learning 작업 영역 만들기 및 살펴보기
