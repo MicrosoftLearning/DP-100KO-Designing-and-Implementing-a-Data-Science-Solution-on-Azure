@@ -24,7 +24,7 @@ Azure Machine Learning Studio의 **Notebooks** 페이지를 통해 Notebook을 �
 Azure Machine Learning SDK는 컴퓨팅 인스턴스에 기본적으로 설치되어 있습니다. 설치를 확인하려면 다음 단계를 수행합니다.
 
 1. Jupyter Notebook 환경에서 새 **터미널**을 만듭니다. 그러면 명령 셸이 포함된 새 탭이 열립니다.
-2. 다음 명령을 입력하여 Azure ML SDK를 업데이트합니다.
+2. 다음 명령을 입력하여 Azure ML SDK가 설치되었는지 확인합니다.
 
     ```bash
     pip show azureml-sdk
@@ -40,7 +40,7 @@ Azure Machine Learning SDK는 컴퓨팅 인스턴스에 기본적으로 설치�
 
 4. **터미널** 탭을 닫고 Jupyter 홈 페이지가 표시된 탭으로 돌아옵니다.
 
-> **자세한 정보**: Azure ML SDK 및 선택적 구성 요소 설치에 대한 자세한 내용은 [Azure ML SDK 설명서](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py)를 참조하세요.
+> **추가 정보**: Azure ML SDK 및 선택적 구성 요소 설치에 대한 자세한 내용은 [Azure ML SDK 설명서](https://docs.microsoft.com/python/api/overview/azure/ml/install?view=azure-ml-py)를 참조하세요.
 
 ## Notebook에서 실험 실행
 
@@ -53,3 +53,5 @@ Azure Machine Learning의 실험은 일종의 *제어* 레이어(대개 스크�
 ## 정리
 
 Azure Machine Learning에서 이 랩을 위한 작업이 완료되었으면 Azure Machine Learning의 **컴퓨팅** 페이지 **컴퓨팅 인스턴스** 탭에서 컴퓨팅 인스턴스를 선택한 다음 **중지**를 클릭하여 종료합니다. 완료되지 않았다면 다음 랩을 위해 실행 상태로 둡니다.
+
+> **참고**: 컴퓨팅 인스턴스를 중지하면 컴퓨팅 리소스에 대한 요금이 청구되지 않습니다. 그러나 Azure Machine Learning 작업 영역이 구독에 남아 있으므로 데이터 저장에 대해 소액의 요금이 청구될 수 있습니다. Azure Machine Learning 탐색을 완료한 경우 Azure Machine Learning 작업 영역 및 관련 리소스를 삭제할 수 있습니다. 그러나 이 시리즈의 다른 랩을 완료할 계획인 경우, 먼저 *[Azure Machine Learning 작업 영역 만들기](01-create-a-workspace.md)* 연습을 반복하여 작업 영역을 만들고 환경을 준비해야 하므로 신중히 생각한 후 삭제하는 것이 좋습니다.
