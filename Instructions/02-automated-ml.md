@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '자동화된 Machine Learning 사용'
 ---
